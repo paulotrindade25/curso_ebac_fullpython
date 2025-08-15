@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    display: flex;justify-content: space-between;
+    padding: 1%;
+    background-color: black;
+}
+
+header nav{
+    background-color: black;
+    color: aliceblue;
+}
+
+header h1 {
+    color: aliceblue;
+    background-color: black;
+}
+
+img{
+    display: flex;
+    border-radius: 10%;
+    width: 35%;
+    padding: 1%;
+    margin: 2%;
+}
+
+.titulo{
+    padding: 1%;
+    color: aliceblue;
+    background-color: rgb(52, 123, 223);
+    border-color: black;
+}
+
+article{
+    border: 0cap;
+    margin: 1%;
+    padding: 1%;
+}
+.titulo1{
+    display: flex; justify-content: flex;
+    background-color: aliceblue;
+    color: black;
+
+}
+footer{
+    display: flex; justify-content: center;
+    padding: 2%;
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+}
