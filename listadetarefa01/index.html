@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-AU-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LISTA DE TAREFA </title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav >
+        <header>
+            <h1> Lista de tarefas </h1>
+            <button id="expandir" >expandir</button>
+        </header>
+    </nav>
+    <div class="contaneir">
+        <form>
+            <input id="tarefa-name" type="text" placeholder="Descrição da nova tarefa" required>
+            <button id="botao-adicionar" type="submit" > NOVA TAREFA </button>
+            <button id="botao-cancelar" type="reset"> CANCELAR </button>
+        </form>
+    </div>
+    <div id="tarefas">
+        <div>
+            <h4> Tarefas Pendentes </h4>
+            <ul id="tarefa-pendentes">
+                <li class="pendentes">
+                    sem tarefas
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h4> Tarefas Concluidas </h4>
+            <ul id="tarefa-feita">
+                <li class="concluidas"> 
+                    sem tarefas concluidas 
+                </li>
+            </ul>
+        </div>
+    </div>      
+    <div id="rodape">
+        <footer>
+            <p> Atividade do curso de programação full stack Python da EBAC. </p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
